@@ -72,4 +72,4 @@ After running the notebook, fill/report generated metrics from `results/metrics_
 ## Author / Contact
 - **Author**: Ibrahim Raza
 - **GitHub Profile**: https://github.com/Ibrahim-raza899
-- **Repository**: https://github.com/Ibrahim-raza899/CLO4-IDS-ML-Solution
+- **Repository**: Current project repository (`CLO4-IDS-ML-Solution`)
