@@ -28,6 +28,7 @@ The mission is to classify network traffic as **Benign (Normal)** or **Malicious
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate     # Windows (PowerShell/CMD)
 pip install -r requirements.txt
 ```
 
@@ -53,6 +54,8 @@ After running the notebook, fill/report generated metrics from `results/metrics_
 - F1-Score
 - ROC-AUC
 - Specificity
+
+> Note: The Decision Tree is intentionally included as a simple baseline and may underperform in IDS contexts (higher missed-attack risk). For deployment-oriented recommendations, prioritize Random Forest and Neural Network results.
 
 ## Security Implications & Deployment Recommendations
 - **High Recall Priority**: Missed attacks (false negatives) are critical failures.
