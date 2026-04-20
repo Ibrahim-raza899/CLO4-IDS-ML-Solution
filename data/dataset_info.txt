@@ -1,0 +1,16 @@
+CIC-IDS2017 Dataset Setup
+=========================
+
+Primary source:
+- https://www.unb.ca/cic/datasets/ids-2017.html
+
+Mirrors/preprocessed variants (community maintained):
+- https://www.kaggle.com/datasets/cicdataset/cicids2017
+
+Expected format for this notebook:
+- CSV file(s) with a target label column named `Label`.
+- Place a combined CSV at: data/CIC_IDS2017.csv
+
+The notebook supports:
+- Binary mapping: BENIGN => 0, all attack labels => 1
+- Attack-type analysis using the original `Label` values
